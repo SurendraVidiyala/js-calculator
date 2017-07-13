@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JavaScript Calculator</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+  <div class="row">
+    <div class="col-xs-4 paddit"></div>
+    <div class="col-xs-4 rectangle" id="calciBody">
+      <div class="row">
+        <div class="col-xs-12 "><input id="screenInput" type="text" class="screenInput" id="screen" name="screens" readOnly></input>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-xs-12 logo">
+          <table align="center">
+            <tr>
+              <td>
+                <font color="#ffffff"><i class="fa fa-lg fa-calculator" aria-hidden="true"></i> Javascript Calculator</font>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <button id="reset" class="btn btn-danger inputKey" value="C">C</button>
+        </div>
+        <div class="col-xs-3">
+
+        </div>
+        <div class="col-xs-3"></div>
+        <div class="col-xs-3">
+          <button id="backspace" class="btn btn-danger inputKey" value="CE">CE</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="7">7</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="8">8</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="9">9</button>
+        </div>
+        <div class="col-xs-3">
+          <button id="multiply" class="btn btn-danger inputKey" value="*"><i class="fa fa-times"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="4">4</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="5">5</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="6">6</button>
+        </div>
+        <div class="col-xs-3">
+          <button id="subtract" class="btn btn-danger inputKey " value="-"> <i class="fa fa-minus"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="1">1</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="2">2</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="3">3</button>
+        </div>
+        <div class="col-xs-3">
+          <button id="addition" class="btn btn-danger inputKey " value="+"> <i class="fa fa-plus"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button id="equalsTo" class="btn btn-danger inputKey " value="EQ"><i class="fa fa-pause fa-rotate-90"></i></button>
+        </div>
+        <div class="col-xs-3">
+          <button class="btn btn-danger inputKey" value="0">0</button>
+        </div>
+        <div class="col-xs-3">
+          <button id="division" class="btn btn-danger inputKey " value="/">/</button>
+        </div>
+        <div class="col-xs-3">
+          <button id="modulus" class="btn btn-danger inputKey " value="%"> <i class="fa fa-percent"></i></button>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-xs-4">
+  </div>
+  </div>
+</div>
+<footer>
+<p><strong>Coded with</strong> <i class="fa fa-heart icon" aria-hidden="true"></i> <em>By </em><a href="https://forum.freecodecamp.com/u/SurendraVidiyala/activity" target="_blank"><strong>Surendra Vidiyala</strong></a>.</p>
+</footer>
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.7.0/math.min.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>
